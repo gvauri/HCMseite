@@ -1,0 +1,29 @@
+
+.container {
+    display: grid;
+    border: #888888 solid 2px;
+    height: auto;
+    padding: 2cm 2.5cm;
+    background-color: rgb(136, 169, 231);
+}
+
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: rgb(33, 83, 182);
+}
+
+a:hover {
+    color: darkblue;
+}
+
+.gimalur_verlinkung {
+    margin-right: 520px;
+}
+
+.gimalur_logo {
+    margin-top: 40px;
+}
