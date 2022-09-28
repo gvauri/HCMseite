@@ -1,7 +1,7 @@
 .bodyContainer{
     display: grid;
     grid-template-columns: 200px auto 400px;
-    grid-template-rows: 120px 50px auto auto 220px;
+    grid-template-rows: 120px 50px 800px auto 220px;
     
     position: relative;
     z-index: 1;
@@ -262,7 +262,7 @@ video{
     .bodyContainer{
         display: grid;
         grid-template-columns: 200px auto 400px;
-        grid-template-rows: 120px 200px auto auto auto 220px;
+        grid-template-rows: 120px 200px 400px auto auto 220px;
         
         position: relative;
         z-index: 1;
@@ -319,5 +319,7 @@ video{
         grid-template-rows: auto auto;
         grid-template-columns: auto auto auto ;
     }
-
+    .sideBarButton{
+        border: 1px;
+    }
 }
