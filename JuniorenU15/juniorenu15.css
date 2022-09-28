@@ -6,11 +6,7 @@ img {
 }
 
 
-.container{
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 300px auto;
-}
+
 .containerMain{
     border: #888888 solid 2px;
     height: auto;
@@ -19,16 +15,6 @@ img {
 }
 
 
-
-.socials {
-    display: flex;
-    margin-left: 85%;
-}
-
-.socials img {
-    width: auto;
-    height: 60px;
-}
 
 th {
     border: #333333 solid 1px;
