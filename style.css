@@ -279,14 +279,12 @@ table{
 }
 @media only screen and (max-width: 1300px){
     .Personalien, .manschaftBemerkung{
-        border: 2px solid rgb(0, 21, 255);
         width: 60%;
     
     }
 }
 @media only screen and (max-width: 900px){
     .Personalien, .manschaftBemerkung{
-        border: 2px solid rgb(0, 21, 255);
         width: 80%;
     
     }
@@ -370,7 +368,6 @@ table{
 @media only screen and (max-width: 600px){
     .Personalien, .manschaftBemerkung{
         padding: 0px;
-        border: 2px solid rgb(0, 21, 255);
         width: 100%;
     
     }
