@@ -4,7 +4,6 @@ body{
 label{
     font-size: 25px;
 }
-
 .Container{
     flex-direction: row;
     display: flex;
@@ -20,18 +19,16 @@ label{
 }
 
 .manschaftBemerkung{
-    border: 2px solid rgb(21, 255, 0);
-    padding: 20px;
-    width: 40%;
+
     display : none;
 
 }
-table{
-    border-spacing: 30px 16px;
-}
+
 textarea{
     resize: none;
     margin-bottom: 10%;
+    width: 80%;
+    min-height: 80px;
 }
 button, .bestbutton{
     padding-left: 20%;
@@ -43,9 +40,7 @@ button, .bestbutton{
     background-color:rgb(0, 204, 255);
 }
 
-h2{
-    font-size: 40px;
-}
+
 h1{
     text-align: center;
 }
