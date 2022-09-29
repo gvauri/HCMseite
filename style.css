@@ -261,6 +261,24 @@ body{
 video{
     width: 100%;
 }
+.GimalurButton {
+    height:auto;
+    width: 50%;
+}
+.Personalien{
+    border: 2px solid rgb(21, 255, 0);
+    padding-left: auto;
+    padding-right: auto;
+    width: 40%;
+
+}
+@media only screen and (max-width: 1000px){
+    .Personalien{
+        border: 2px solid rgb(0, 21, 255);
+        width: 80%;
+    
+    }
+}
 @media only screen and (max-width: 900px){
     .mainNav{
     
@@ -339,7 +357,3 @@ video{
       }
 }
 
-.GimalurButton {
-    height:auto;
-    width: 50%;
-}
