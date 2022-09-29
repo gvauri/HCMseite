@@ -131,6 +131,7 @@ table{
     padding: 10px;
     border-radius:8px;
     margin-bottom: 15px;
+    text-align: center;
 }
 aside,article{
     padding: 20px;
@@ -232,6 +233,8 @@ a{
 h1 {
     font-family: 'EB Garamond', serif;
 }
+
+
 body{
     font-family: 'EB Garamond', serif;
     margin: 0px;
@@ -335,4 +338,9 @@ video{
         padding-top: 3%;
         height: 75px;
       }
+}
+
+.GimalurButton {
+    height:auto;
+    width: 50%;
 }
