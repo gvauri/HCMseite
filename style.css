@@ -273,7 +273,7 @@ video{
     .bodyContainer{
         display: grid;
         grid-template-columns: 200px auto 400px;
-        grid-template-rows: 120px 100px 400px auto auto 220px;
+        grid-template-rows: 120px auto 400px auto auto 220px;
         
         position: relative;
         z-index: 1;
