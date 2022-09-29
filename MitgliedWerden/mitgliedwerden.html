@@ -38,55 +38,95 @@
             </nav>
         </div>
     </div>
-    <header>
-        <h1>Werde Mitglied des HC Malters!</h1>
-    </header>
+
     <main>
+      
+        <form action="https://formlog.offline.ch/log" method="POST">
+          <div class="completesurvey">
+            <h1>Werde Mitglied des HC Malters!</h1>
+            <div class="Container">
+              <div class="Personalien" id="personalienId">
+                <h2>Personalien</h2>
+                <table>
+                  <tr>
+                    <td>
+                      <label for="vorname">Vorname</label>
+                    </td>
+                    <td>
+                      <input type="text" id="vorname" name="Vorname" required>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="nachname">Nachname</label>
+                    </td>
+                    <td>
+                      <input type="text" id="nachname" name="Nachname" required>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="email">Email</label>
+                    </td>
+                    <td>
+                      <input type="email" id="email" name="email" required>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="adresse">Adresse</label>
+                    </td>
+                    <td>
+                      <input type="text" id="adresse" name="Adresse" required>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="wohnort">Wo wohnen Sie?</label>
+                    </td>
+                    <td>
+                      <input type="text" id="wohnort" name="Wohnort" required>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="telefonnummer">Telefonnummer</label>
+                    </td>
+                    <td>
+                      <input type="tel" id="telefonnummer" name="Telefonnummer" required>
+                    </td>
+                  </tr>
+                </table>
+                
+              </div>
 
-        <form action="https://formlog.offline.ch/log" method="post">
+              <div class="manschaftBemerkung" id="manschaftBemerkung">
+                <h2>In welches Team kommst du?</h2>
+                <input type="radio" id="manschaftU9" name="manschaft" value="manschaft U9" required>
+                <label for="manschaftU9">U9</label><br>
+  
+                <input type="radio" id="manschaftU11" name="manschaft" value="manschaft U11">
+                <label for="manschaftU11">U11</label><br>
+  
+                <input type="radio" id="manschaftU13" name="manschaft" value="manschaft U13">
+                <label for="manschaftU13">U13</label><br>
+  
+                <input type="radio" id="manschaftU14" name="manschaft" value="manschaft U14">
+                <label for="manschaftU14">U14</label><br>
 
-            <fieldset class="fieldset">
-
-                <h3 class="legend1">Anmeldung:</h3>
-                <br />
-
-                <label for="firstname">Vorname:</label>
-                <input type="text" id="firstname" name="firstname" placeholder="Pflichtfeld" required>
-                <br> </br>
-
-                <label for="lastname">Nachname:</label>
-                <input type="text" id="lastname" name="lastname" placeholder="Pflichtfeld" required>
-                <br> </br>
-
-                <label for="email">E-Mail:</label>
-                <input type="email" id="email" name="email" placeholder="Pflichtfeld" required>
-                <br> </br>
-
-                <label for="adress">Adresse (Strasse und Nummer):</label>
-                <input type="text" id="adress" name="adress" placeholder="Pflichtfeld" required>
-                <br> </br>
-
-                <label for="location">PLZ und Ort:</label>
-                <input type="text" id="location" name="location" placeholder="Pflichtfeld" required>
-                <br> </br>
-
-                <label for="phonenumber">Telefonnummer:</label>
-                <input type="text" id="phonenumber" name="phonenumber" placeholder="Pflichtfeld" required>
-                <br /><br />
-
-                <label for="alter">Alter:</label>
-                <input type="text" id="alter" name="alter" placeholder="kein Pflichtfeld">
-                <br /><br />
-
-                <textarea id="textarea" cols="40" rows="5" placeholder="Bemerkungen" name="Bemerkung"></textarea>
-                <br /><br />
-
-                <input id="absenden_button" type="submit" value="Absenden">
-                <br />
-
-            </fieldset>
-
+                <input type="radio" id="manschaftU15" name="manschaft" value="manschaft U15">
+                <label for="manschaftU15">U15</label>
+  
+                <h2>Bemerkung</h2>
+                <textarea cols="50" rows="15" placeholder="Bemerkung" name="Bemerkung"></textarea>
+                <input type="submit" value="Bestätigen" class="bestbutton">
+              </div>
+            </div>
+            
+          </div>
         </form>
+        <button onclick="checkInput()" id="buttonWeiter">weiter</button>
+      </main>
 
     </main>
     <footer>

@@ -1,15 +1,56 @@
-body {
-    background-color: lightskyblue;
-    
+body{
+    background-color:  rgb(136, 169, 231);
+}
+label{
+    font-size: 25px;
 }
 
-.fieldset {
+.Container{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.completesurvey{
+    padding: 40px;
+    padding-bottom: 30px;
+    border: 2px solid rgba(0, 179, 255, 0.453);
+    text-align: center;
+
+}
+.Personalien{
+    border: 2px solid rgb(21, 255, 0);
+    padding: 40px;
+    width: 40%;
+
+}
+.manschaftBemerkung{
+    border: 2px solid rgb(21, 255, 0);
+    padding: 20px;
+    width: 40%;
+    display : none;
+
+}
+table{
+    border-spacing: 30px 16px;
+}
+textarea{
+    resize: none;
+    margin-bottom: 10%;
+}
+button, .bestbutton{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(0, 204, 255);
+}
+
+h2{
+    font-size: 40px;
+}
+h1{
     text-align: center;
 }
-
-#absenden_button {
-    width: 100px;
-    height: 50px;
-    margin-bottom: 50px;
-}
-
