@@ -185,6 +185,7 @@ a{
     color: white;
 }
   .sideBarButton{
+    
     color:#125688;
     width: 100%;
     height: 100%;
@@ -194,10 +195,13 @@ a{
     border:solid 2px;
     border-radius:18px;
     text-align: center;
+    place-items: center;
     flex-grow: 1;
+
   }
 
   .sideBarButton.side{
+    padding-top: 10%;
     height: 75px;
   }
 
@@ -327,5 +331,8 @@ video{
         grid-template-rows: auto auto;
         grid-template-columns: auto auto auto ;
     }
-    
+    .sideBarButton.side{
+        padding-top: 3%;
+        height: 75px;
+      }
 }
