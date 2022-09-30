@@ -275,6 +275,9 @@ table{
     border-spacing: 30px 16px;
     width: 100%;
 }
+.Formular{
+    margin-bottom: 20px;
+}
 @media only screen and (max-width: 1300px){
     .Personalien, .manschaftBemerkung{
         width: 60%;
