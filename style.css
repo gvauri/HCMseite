@@ -265,8 +265,6 @@ video{
 }
 .Personalien, .manschaftBemerkung{
     border: 2px solid rgb(21, 255, 0);
-    padding-left: auto;
-    padding-right: auto;
     width: 40%;
 
 }
@@ -305,7 +303,6 @@ table{
         
         position: relative;
         z-index: 1;
-        margin: 5 auto;
     }
     .resultateTabelle{
         grid-column-start: 1;
@@ -378,7 +375,6 @@ table{
         
         position: relative;
         z-index: 1;
-        margin: 5 auto;
     }
     h1{
         font-size: 35px;
